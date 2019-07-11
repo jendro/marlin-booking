@@ -20,7 +20,7 @@ class Test1Controller extends Controller
             'menu'=>'test_1'
         ]);
     }
-
+    
     public function process(Request $request)
     {
         $jumlah = $request->jumlah;
